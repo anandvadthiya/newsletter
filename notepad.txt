@@ -1,0 +1,3 @@
+curl -sS \
+  "https://us10.api.mailchimp.com/3.0/ping" \
+  --user "anand:80abf66f0f76d782cde8b84902caf568-us10" | jq -r
